@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CREATE ELEMENTS</title>
+		<style type="text/css">
+			h1 {
+				background-color: red;
+			}
+			h2 {
+				background-color: green;
+			}
+			h3 {
+				background-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+		<hr/>
+		<button onclick="addParagraph();">ADD P</button>
+		<button onclick="remove1stParagraph();">REMOVE 1st P</button>
+		<button onclick="removeLastParagraph();">REMOVE Last P</button>
+		<script>
+			
+			var numps = 0;
+
+			function addParagraph(){
+				var parent = document.getElementById('container');
+				var ps = parent.getElementsByTagName("p");
+				numps++;
+				var p = document.createElement("p");
+				var txt = document.createTextNode("Paràgraf "+numps);
+				p.appendChild(txt);
+				parent.appendChild(p);
+			}
+
+			function remove1stParagraph(){
+				var parent = document.getElementById('container');
+				var ps = parent.getElementsByTagName("p");
+				var p = ps.item(0);
+				parent.removeChild(p);
+			}
+
+			function removeLastParagraph(){
+				var parent = document.getElementById('container');
+				var ps = parent.getElementsByTagName("p");
+				var n = ps.length
+				var p = ps.item(n-1);
+				parent.removeChild(p);
+			}
+
+		</script>
+	</body>
+</html>
