@@ -59,6 +59,11 @@
 				printList();
 			}
 
+			function quants(){
+				var n = llistaCompra.length;
+				alert("HI HA "+n+" ELEMENTS A LA LLISTA.");
+			}
+
 			function llistaMinuscules(){
 				llistaCompra.minuscules();
 				printList();
@@ -98,11 +103,16 @@
 		<button onclick="hiHa('POTATOES')">HI HA 'POTATOES'?</button>
 		<button onclick="llistaMinuscules()">MINÚSCULES</button>
 		<button onclick="llistaMajuscules()">MAJÚSCULES</button>
+		<button onclick="quants()">QUANTS?</button>
 		<script>
 
 			var llistaCompra = new Array();
 			llistaCompra[0]="POTATOES";
 			llistaCompra[1]="MILK";
+			llistaCompra[2]="MEAT";
+			llistaCompra[3]="WC PAPER";
+			llistaCompra[4]="RICE";
+			llistaCompra[5]="SOAP";
 
 			printList();
 		</script>
