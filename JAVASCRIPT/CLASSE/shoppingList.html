@@ -14,14 +14,18 @@
 
 			function afegirInici(){
 				var nou = document.getElementById("item").value;
-				llistaCompra.unshift(nou);
-				printList();
+				if(llistaCompra.indexOf(nou)==-1){
+					llistaCompra.unshift(nou);
+					printList();
+				}
 			}
 
 			function afegirFinal(){
 				var nou = document.getElementById("item").value;
-				llistaCompra.push(nou);
-				printList();
+				if(llistaCompra.indexOf(nou)==-1){
+					llistaCompra.push(nou);
+					printList();
+				}
 			}
 
 			function llevarInici(){
@@ -61,7 +65,7 @@
 			}
 
 			function llistaMajuscules(){
-				llistaCompra.minuscules();
+				llistaCompra.majuscules();
 				printList();
 			}
 
