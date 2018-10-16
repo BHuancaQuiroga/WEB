@@ -39,11 +39,44 @@
 				printList();
 			}
 
+			function hiHa(element){
+				var p = llistaCompra.indexOf(element);
+				if(p!=-1){
+					alert("HI HA "+element+ " A LA POSICIÓ "+p);
+				}
+				else {
+					alert("NO HI HA "+element+" A LA LLISTA.");
+				}
+			}
+
 			function ordenarDesc(){
 				llistaCompra.sort();
 				llistaCompra.reverse();
 				printList();
 			}
+
+			function llistaMinuscules(){
+				llistaCompra.minuscules();
+				printList();
+			}
+
+			function llistaMajuscules(){
+				llistaCompra.minuscules();
+				printList();
+			}
+
+			Array.prototype.minuscules = function() {
+				for (i=0;i<this.length;i++){
+					this[i]=this[i].toLowerCase();
+				}
+			};
+
+			Array.prototype.majuscules = function() {
+				for (i=0;i<this.length;i++){
+					this[i]=this[i].toUpperCase();
+				}
+			};
+
 		</script>
 	</head>
 	<body>
@@ -58,6 +91,9 @@
 		<button onclick="llevarFinal()">LLEVAR FINAL</button>
 		<button onclick="ordenarAsc()">ORDENAR ASC</button>
 		<button onclick="ordenarDesc()">ORDENAR DESC</button>
+		<button onclick="hiHa('POTATOES')">HI HA 'POTATOES'?</button>
+		<button onclick="llistaMinuscules()">MINÚSCULES</button>
+		<button onclick="llistaMajuscules()">MAJÚSCULES</button>
 		<script>
 
 			var llistaCompra = new Array();
