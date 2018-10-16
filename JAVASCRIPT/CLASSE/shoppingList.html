@@ -17,6 +17,33 @@
 				llistaCompra.unshift(nou);
 				printList();
 			}
+
+			function afegirFinal(){
+				var nou = document.getElementById("item").value;
+				llistaCompra.push(nou);
+				printList();
+			}
+
+			function llevarInici(){
+				llistaCompra.shift();
+				printList();
+			}
+
+			function llevarFinal(){
+				llistaCompra.pop();
+				printList();
+			}
+
+			function ordenarAsc(){
+				llistaCompra.sort();
+				printList();
+			}
+
+			function ordenarDesc(){
+				llistaCompra.sort();
+				llistaCompra.reverse();
+				printList();
+			}
 		</script>
 	</head>
 	<body>
@@ -26,6 +53,11 @@
 		<hr/>
 		ITEM:<input type="text" id="item" /><br/><br/>
 		<button onclick="afegirInici()">AFEGIR INICI</button>
+		<button onclick="afegirFinal()">AFEGIR FINAL</button>
+		<button onclick="llevarInici()">LLEVAR INICI</button>
+		<button onclick="llevarFinal()">LLEVAR FINAL</button>
+		<button onclick="ordenarAsc()">ORDENAR ASC</button>
+		<button onclick="ordenarDesc()">ORDENAR DESC</button>
 		<script>
 
 			var llistaCompra = new Array();
