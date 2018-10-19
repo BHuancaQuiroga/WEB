@@ -29,6 +29,27 @@ $(document).ready(function(){
     else if(vSelect2=="find"){
     	eTraversing = eSeleccionat.find("*");
     }
+    else if(vSelect2=="siblings"){
+    	eTraversing = eSeleccionat.siblings();
+    }
+    else if(vSelect2=="next"){
+    	eTraversing = eSeleccionat.next();
+    }
+    else if(vSelect2=="nextAll"){
+    	eTraversing = eSeleccionat.nextAll();
+    }
+    else if(vSelect2=="nextUntil"){
+    	eTraversing = eSeleccionat.nextUntil("div");
+    }
+    else if(vSelect2=="prev"){
+    	eTraversing = eSeleccionat.prev();
+    }
+    else if(vSelect2=="prevAll"){
+    	eTraversing = eSeleccionat.prevAll();
+    }
+    else if(vSelect2=="prevUntil"){
+    	eTraversing = eSeleccionat.prevUntil();
+    }
     eTraversing.css({"background-color":"red"});
 
   });
@@ -87,6 +108,13 @@ $(document).ready(function(){
 		<option value="parentsUntil">PARENTS UNTIL</option>
 		<option value="children">CHILDREN</option>
 		<option value="find">FIND</option>
+		<option value="siblings">SIBLINGS</option>
+		<option value="next">NEXT</option>
+		<option value="nextAll">NEXT ALL</option>
+		<option value="nextUntil">NEXT UNTIL</option>
+		<option value="prev">PREV</option>
+		<option value="prevAll">PREV ALL</option>
+		<option value="prevUntil">PREV UNTIL</option>
 	</select>
 	<button>SELECT</button>
 </div>
