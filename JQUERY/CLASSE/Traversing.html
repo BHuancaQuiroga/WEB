@@ -23,6 +23,12 @@ $(document).ready(function(){
     else if(vSelect2=="parentsUntil"){
     	eTraversing = eSeleccionat.parentsUntil("div");
     }
+    else if(vSelect2=="children"){
+    	eTraversing = eSeleccionat.children();
+    }
+    else if(vSelect2=="find"){
+    	eTraversing = eSeleccionat.find("*");
+    }
     eTraversing.css({"background-color":"red"});
 
   });
@@ -79,6 +85,8 @@ $(document).ready(function(){
 		<option value="parent">PARENT</option>
 		<option value="parents">PARENTS</option>
 		<option value="parentsUntil">PARENTS UNTIL</option>
+		<option value="children">CHILDREN</option>
+		<option value="find">FIND</option>
 	</select>
 	<button>SELECT</button>
 </div>
