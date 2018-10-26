@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"arra",
+				"arrayNotation"
+			],
+			[
+				"object",
+				"objectNotation"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"val",
+				"vertical-align\tproperty"
+			],
+			[
 				"vSe",
 				"vSelect2"
 			],
@@ -356,10 +372,6 @@
 				"distGreen"
 			],
 			[
-				"text",
-				"text\ttext stringdata"
-			],
-			[
 				"muta",
 				"mutationRate"
 			],
@@ -383,15 +395,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "JQUERY/CLASSE/bookStore/bookStore.html",
-			"settings":
-			{
-				"buffer_size": 3398,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -467,14 +470,56 @@
 	"expanded_folders":
 	[
 		"/D/GITHUB/WEB",
-		"/D/GITHUB/WEB/WEB",
-		"/D/GITHUB/WEB/WEB/JQUERY",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE"
+		"/D/GITHUB/WEB/WEB"
 	],
 	"file_history":
 	[
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/DinamicForm.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/createObject.php",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/27 - Get Data From DataBase PHP POST.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/customers.php",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/demo_jsonp.php",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/33 - JSONP with Data from PHP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/demo_jsonp_db.php",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/24 - Get Data from PHP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/createArray.php",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/25 - Get Array from PHP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/26 - Get Data from Database PHP GET.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/select.php",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/34 - JSONP Callback Function.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/32 - Dynamic Script Tag.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/31 - Using JSONP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/30 - Select with Data from PHP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/28 - Create HTML Table with Data from PHP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/29 - Dynamic Table with Data from PHP.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/23 - Delete Array Values.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/22 - Modify Array Values.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/21 - Nested Array.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/20 - Loop Array.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/19 - Access Array.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/18 - Delete Object Property.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/16 - Loop an Object.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/17 - Nested Objects.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/15 - Stringify Functions.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/14 - Stringify Dates.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/13 - Stringify Array.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/12 - Stringify.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/11 - Parse Functions.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/10 - Parse Dates with Reviver.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/marques.txt",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/09 - Parse Dates.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/08 - Content as Array.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/07 - XMLHttpRequest.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/06 - JSON object from String.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/05 - JSON Data Types.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/03 - Local Data.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/bookStore/bookStorev2.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/01 - Sending Data to Server.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/02 - Convert String into JSON object.html",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/animals.json",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/empleats.json",
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/empleats.xml",
 		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/cybermonday.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/DinamicForm.html",
 		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/bookStore.html",
 		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/bookStore/bookStore.html",
 		"/D/GITHUB/WEB/WEB/JAVASCRIPT/EXEMPLES/38 - Math random function.html",
@@ -556,55 +601,11 @@
 		"/D/GITHUB/DotSystem/DotSystem/build/build.pde",
 		"/C/Users/ToniMitjanit/Desktop/easing.js",
 		"/D/GITHUB/DotSystem/DotSystem/build/DotLine.pde",
-		"/D/GITHUB/DotSystem/DotSystem/DotLine.pde",
-		"/D/GITHUB/DotSystem/DotLine.pde",
-		"/D/SKETCHES/shape01/build/build.pde",
-		"/D/SKETCHES/shape03/build/build.pde",
-		"/D/SKETCHES/img lines 01/build/build.pde",
-		"/D/SKETCHES/shape05/build/build.pde",
-		"/D/SKETCHES/shape04/build/build.pde",
-		"/D/SKETCHES/shape02/build/build.pde",
-		"/D/SKETCHES/Belousov 01/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 06 - GA - Color Gradient - POO/build/Max Fitness",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 13 - GA - Generic/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 13 - GA - Generic/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 06 - GA - Color Gradient - Draw/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 12 - GA - Evo Polys/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 05 - GA - Grey Gradient - Draw/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 12 - GA - Evo Polys/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 12 - GA - Evo Polys/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 10 - GA - Evo Triangles/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 11 - GA - Evo Quads/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 11 - GA - Evo Quads/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 11 - GA - Evo Quads/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 02 - GA/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 10 - GA - Evo Triangles/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 10 - GA - Evo Triangles/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/vectors 01 - angle between/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 07 - basic rockets/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 07 - basic rockets/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 04 - GA - Color Gradient/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 08 - rockets with obstacles/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 09 - faces interactive selection/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 09 - faces interactive selection/build/Rectangle.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 09 - faces interactive selection/build/Button.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 09 - faces interactive selection/build/build.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 09 - faces interactive selection/build/Face.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 09 - faces interactive selection/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 08 - rockets with obstacles/build/Obstacle.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 08 - rockets with obstacles/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 08 - rockets with obstacles/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 08 - rockets with obstacles/build/Rocket.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 07 - basic rockets/build/Rocket.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 07 - basic rockets/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 06 - GA - Color Gradient - Draw/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 06 - GA - Color Gradient - Draw/build/DNA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 05 - GA - Color Gradient - Draw/build/GA.pde",
-		"/D/NATURE of CODE/Unit 09 - Evolution/evo 05 - GA - Color Gradient - Draw/build/build.pde"
+		"/D/GITHUB/DotSystem/DotSystem/DotLine.pde"
 	],
 	"find":
 	{
-		"height": 49.0
+		"height": 84.0
 	},
 	"find_in_files":
 	{
@@ -636,216 +637,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "JQUERY/CLASSE/bookStore/bookStore.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3398,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1480,
-								1480
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										2409,
-										2415
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										102,
-										108
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1489,
-										1490
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1480,
-										1481
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2244.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -855,7 +648,7 @@
 	},
 	"input":
 	{
-		"height": 83.0
+		"height": 84.0
 	},
 	"layout":
 	{
@@ -938,7 +731,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 494.0,
+	"side_bar_width": 385.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
