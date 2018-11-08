@@ -24,7 +24,6 @@
           <div class="form-group">
             <label for="formGroupExampleInput">Model</label>
             <select id="meuModel" class="form-control">
-              <option value="0">Selecciona</option>
             </select>
           </div>
         </form>
@@ -42,7 +41,8 @@
 
         $("#mevaMarca").change(function(){
           var idMarca = $("#mevaMarca").val();
-          $( "#meuModel" ).prop( "disabled", false );
+          $("#meuModel" ).prop( "disabled", false );
+          $("#meuModel").empty();
           loadModels(idMarca);
         });
 
@@ -71,6 +71,10 @@
             if (this.readyState == 4 && this.status == 200) {
               $("#json2").html(this.responseText);
               var carroceries = JSON.parse(this.responseText);
+
+              var item0 = $("<option/>", {value:"0", text:"Selecciona"});
+              $("#meuModel").append(item0);
+
               for (c in carroceries) {
                 var idCarro = carroceries[c].id;
                 var nomCarro = carroceries[c].nom;
