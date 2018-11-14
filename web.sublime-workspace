@@ -527,13 +527,63 @@
 	[
 		"/D/GITHUB/WEB",
 		"/D/GITHUB/WEB/WEB",
-		"/D/GITHUB/WEB/WEB/JSON",
-		"/D/GITHUB/WEB/WEB/JSON/CLASSE",
-		"/D/GITHUB/WEB/WEB/JSON/CLASSE/CONCESIONARI",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES"
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS"
 	],
 	"file_history":
 	[
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/44 - affix basic.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/45 - affix via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/43 - popover option animation.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/42 - popover via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/41 - popover basic.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/40 - modal event hide.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/39 - modal event show.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/38- modal toggle.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/37 - modal hide.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/36 - modal option show.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/35 - modal option keyboard.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/34 - modal option backdrop.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/33 - modal via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/32 - modal basic.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/31 - dropdown relatedTarget.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/30 - dropdown events.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/29 - dropdown toggle.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/28 - dropdown via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/27 - dropdown basic.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/26 - collapse events.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/25 - collapse via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/18 - carousel event 2.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/21 - carousel to.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/22 - collpase basic.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/23 - collpase show.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/24 - collapse collapsing.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/20 - carousel from.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/19 - carousel relatedTarget.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/17 - carousel event 1.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/07 - basic carousel.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/08 - carousel via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/09 - carousel interval.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/10 - carousel keyboard.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/16 - carousel prev next.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/15 - carousel number.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/14 - carousel cycle.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/13 - carousel options.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/12 - carousel wrap.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/11 - carousel pause.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/01 - alert via data.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/02 - alert via javascript.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/03 - alert close.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/04 - alert event close 1.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/04 - alert event close 2.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/05 - basic button.html",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/06 - toggle button.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/Traversing2.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/shoopingList.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/45 - Remove method.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/43 - After and Before methods.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/40 - Append method.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/41 - Prepend method.html",
+		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/42 - Append method - Insert several new elements.html",
 		"/D/GITHUB/WEB/WEB/JSON/CLASSE/selects.html",
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/21 - Nested Array.html",
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/16 - Loop an Object.html",
@@ -608,64 +658,11 @@
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/34 - JSONP Callback Function.html",
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/32 - Dynamic Script Tag.html",
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/31 - Using JSONP.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/30 - Select with Data from PHP.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/28 - Create HTML Table with Data from PHP.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/29 - Dynamic Table with Data from PHP.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/23 - Delete Array Values.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/22 - Modify Array Values.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/20 - Loop Array.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/19 - Access Array.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/18 - Delete Object Property.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/17 - Nested Objects.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/15 - Stringify Functions.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/14 - Stringify Dates.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/13 - Stringify Array.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/12 - Stringify.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/11 - Parse Functions.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/10 - Parse Dates with Reviver.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/marques.txt",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/09 - Parse Dates.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/06 - JSON object from String.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/03 - Local Data.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/bookStore/bookStorev2.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/02 - Convert String into JSON object.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/animals.json",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/empleats.json",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/empleats.xml",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/cybermonday.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/DinamicForm.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/bookStore.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/bookStore/bookStore.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/EXEMPLES/38 - Math random function.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/regExpressions.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/timer.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/33 - Val get content.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/35 - Text and html methods - set content with callback function.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/45 - Remove method.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/46 - Empty method.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/Traversing.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/Selectors.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/19 - FadeToggle method.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/26 - Animate  using relative values.html",
-		"/C/Users/ToniMitjanit/Downloads/jquery-3.3.1.min (1).map",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/loopFor.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/shoppingList.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/arrayFuntions.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/shoppingList00.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/arrowFunctions.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/getElementByClassName.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/debugging.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/createElement.html",
-		"/C/Users/ToniMitjanit/Desktop/log15oct.txt",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/removeElement.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/changeAttributeSRC.html",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/loopForIn.html",
-		"/C/Users/ToniMitjanit/Desktop/exportacioDadesCentre.xml",
-		"/D/GITHUB/WEB/WEB/JAVASCRIPT/CLASSE/listParagraphs.html"
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/30 - Select with Data from PHP.html"
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -704,7 +701,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 44.0
+		"height": 49.0
 	},
 	"input":
 	{
@@ -749,7 +746,7 @@
 	"project": "web.sublime-project",
 	"replace":
 	{
-		"height": 84.0
+		"height": 94.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -769,7 +766,7 @@
 		[
 			[
 				"",
-				"D:\\GITHUB\\WEB\\WEB\\web.sublime-project"
+				"D:\\GITHUB\\Colorama\\Colorama\\colorama.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -791,7 +788,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 333.0,
+	"side_bar_width": 269.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

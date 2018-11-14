@@ -5,6 +5,29 @@
 <script>
 $(document).ready(function(){
 
+    function pare(sel){
+        var p = $("#"+sel).parent();
+        $("*").css("background-color", "white");
+        p.css("background-color", "red");
+    }
+
+    function pares(sel){
+        var p = $("#"+sel).parents();
+        $("*").css("background-color", "white");
+        p.css("background-color", "red");
+    }
+
+    $("button").click(function(){
+
+        var sel = $("#s1").val();
+        var fun = $("#s2").val();
+
+        switch(fun){
+            case "parent": pare(sel); break;
+            case "parents": pares(sel); break;
+        }
+    });
+
 });
 </script>
 <style>
