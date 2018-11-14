@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 08-11-2018 a las 11:45:35
+-- Tiempo de generación: 14-11-2018 a las 19:39:00
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -89,6 +89,7 @@ CREATE TABLE IF NOT EXISTS `model` (
   `places` int(11) NOT NULL DEFAULT '5',
   `marca` int(11) NOT NULL,
   `carroceria` int(11) NOT NULL,
+  `foto` varchar(50) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `nom` (`nom`),
   KEY `marca` (`marca`),
@@ -99,11 +100,11 @@ CREATE TABLE IF NOT EXISTS `model` (
 -- Volcado de datos para la tabla `model`
 --
 
-INSERT INTO `model` (`id`, `nom`, `portes`, `potencia`, `preu`, `maleter`, `places`, `marca`, `carroceria`) VALUES
-(1, 'IBIZA SX', 5, 75, 9900, 355, 5, 1, 1),
-(2, 'LEON ', 5, 180, 13990, 380, 5, 1, 2),
-(3, 'TOLEDO STYLE S', 5, 125, 14990, 550, 5, 1, 3),
-(4, 'FIESTA SPORT EDITION', 5, 80, 8400, 220, 5, 2, 2);
+INSERT INTO `model` (`id`, `nom`, `portes`, `potencia`, `preu`, `maleter`, `places`, `marca`, `carroceria`, `foto`) VALUES
+(1, 'IBIZA SX', 5, 75, 9900, 355, 5, 1, 1, 'ibiza.jpg'),
+(2, 'LEON ', 5, 180, 13990, 380, 5, 1, 2, 'leon.jpg'),
+(3, 'TOLEDO STYLE S', 5, 125, 14990, 550, 5, 1, 3, 'toledo.jpg'),
+(4, 'FIESTA SPORT EDITION', 5, 80, 8400, 220, 5, 2, 2, 'fiesta.jpg');
 
 --
 -- Restricciones para tablas volcadas
@@ -113,8 +114,8 @@ INSERT INTO `model` (`id`, `nom`, `portes`, `potencia`, `preu`, `maleter`, `plac
 -- Filtros para la tabla `model`
 --
 ALTER TABLE `model`
-  ADD CONSTRAINT `model_ibfk_2` FOREIGN KEY (`carroceria`) REFERENCES `carroceria` (`id`),
-  ADD CONSTRAINT `model_ibfk_1` FOREIGN KEY (`marca`) REFERENCES `marca` (`id`);
+  ADD CONSTRAINT `model_ibfk_1` FOREIGN KEY (`marca`) REFERENCES `marca` (`id`),
+  ADD CONSTRAINT `model_ibfk_2` FOREIGN KEY (`carroceria`) REFERENCES `carroceria` (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
