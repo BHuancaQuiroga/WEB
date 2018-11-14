@@ -527,10 +527,13 @@
 	[
 		"/D/GITHUB/WEB",
 		"/D/GITHUB/WEB/WEB",
-		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS"
+		"/D/GITHUB/WEB/WEB/JSON",
+		"/D/GITHUB/WEB/WEB/JSON/CLASSE",
+		"/D/GITHUB/WEB/WEB/JSON/CLASSE/CONCESIONARI"
 	],
 	"file_history":
 	[
+		"/C/Users/ToniMitjanit/Desktop/WEB FPQ/fpq4/pcs/llistat_ordinadors.php",
 		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/44 - affix basic.html",
 		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/45 - affix via javascript.html",
 		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/43 - popover option animation.html",
@@ -657,8 +660,7 @@
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/select.php",
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/34 - JSONP Callback Function.html",
 		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/32 - Dynamic Script Tag.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/31 - Using JSONP.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/30 - Select with Data from PHP.html"
+		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/31 - Using JSONP.html"
 	],
 	"find":
 	{
