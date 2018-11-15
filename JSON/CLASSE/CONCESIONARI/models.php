@@ -1,7 +1,7 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 
-$conn = new mysqli("localhost", "admin", "12345", "concesionari");
+$conn = new mysqli("localhost", "root", "mitjanit3", "concesionari");
 $stmt = $conn->prepare("SELECT * FROM model");
 if(isset($_REQUEST['marca'])){
 	$stmt = $conn->prepare("SELECT * FROM model WHERE marca=".$_REQUEST['marca']);

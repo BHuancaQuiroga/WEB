@@ -2,7 +2,7 @@
 header("Content-Type: application/json; charset=UTF-8");
 
 $conn = new mysqli("localhost", "root", "mitjanit3", "concesionari");
-$stmt = $conn->prepare("SELECT * FROM carroceria ORDER BY nom");
+$stmt = $conn->prepare("SELECT * FROM carroceria WHERE id=".$_REQUEST['id']);
 $stmt->execute();
 $result = $stmt->get_result();
 $outp = $result->fetch_all(MYSQLI_ASSOC);
