@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FETCH</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+
+    <button>FER FETCH GET</button>
+    <div id="demo"></div>
+
+    <script>
+      $(document).ready(function(){
+
+        $("button").click(function(){
+          meuFetch();
+        });
+
+        
+        function  meuFetch(){
+          fetch('marques.php')
+            .then(ajaxOK)
+            .catch(showError);
+        }
+
+        function showError(err) { 
+          console.log('Error: ', err);
+        }
+
+        function ajaxOK(response) {
+          console.log('Resposta Ok: ', response.ok);
+          if(response.ok) {
+            response.text().then(showResult);
+          } else {
+            showError('status code: ' + response.status);
+            return false;
+          }
+        }
+
+        function showResult(txt) {
+          var marques = JSON.parse(txt);
+          for (m in marques) {
+            var info = marques[m].id + " - " + marques[m].nom;
+            var item = $("<p/>", {text:info});
+            $("#demo").append(item);
+          }
+        }
+
+      });
+    </script>
+  </body>
+</html>

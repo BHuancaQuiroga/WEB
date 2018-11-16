@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FETCH</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+
+    <form id="meuForm" method="post" enctype="mu">
+      <select id="smarques" name="marca"></select><br/>
+      
+    </form>
+    <button>FER FETCH POST</button>
+    <div id="demo"></div>
+
+    <script>
+      $(document).ready(function(){
+
+        $("button").click(function(){
+          meuFetch();
+        });
+
+        
+        function  meuFetch(){
+          const data = new FormData($('meuForm'));
+          fetch('models.php',{
+            method:'POST',
+            body: data
+          })
+            .then(function(response) {
+               if(response.ok) {
+                   return response.text()
+               } else {
+                   throw "Error en la llamada Ajax";
+               }
+
+            })
+            .then(function(txt) {
+               console.log(txt);
+               var models = JSON.parse(txt);
+               for (m in models) {
+                  var info = models[m].nom;
+                  var item = $("<p/>", {text:info});
+                  $("#demo").append(item);
+                }
+            })
+            .catch(function(err) {
+               console.log(err);
+            });
+        }
+
+        
+
+        function showResult(txt) {
+          var marques = JSON.parse(txt);
+          for (m in marques) {
+            var info = marques[m].id + " - " + marques[m].nom;
+            var item = $("<p/>", {text:info});
+            $("#demo").append(item);
+          }
+        }
+
+
+
+        function loadMarques() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              $("#json1").html(this.responseText);
+              var carroceries = JSON.parse(this.responseText);
+              for (c in carroceries) {
+                var idCarro = carroceries[c].id;
+                var nomCarro = carroceries[c].nom;
+                var item = $("<option/>", {value:idCarro, text:nomCarro});
+                $("#smarques").append(item);
+              }
+            }
+          };
+          xhttp.open("GET", "marques.php", true);
+          xhttp.send();
+        }
+
+        loadMarques();
+
+      });
+    </script>
+  </body>
+</html>
