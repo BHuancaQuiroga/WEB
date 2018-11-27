@@ -4,19 +4,19 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<style>
 		.red {
-		color:red;
+			color:red;
 		}
 		.green {
-		color:green;
+			color:green;
 		}
 		.blue {
-		color:blue;
+			color:blue;
 		}
 		.courier {
-		font-family:Courier;
+			font-family:Courier;
 		}
 		.arial {
-		font-family:Arial;
+			font-family:Arial;
 		}
 		.verdana {
 			font-family:Verdana;
@@ -52,6 +52,37 @@
 
 	<script>
 		$(document).ready(function(){
+
+			function resetColors(){
+				$("#myText").removeClass("red");
+				$("#myText").removeClass("green");
+				$("#myText").removeClass("blue");
+			}
+
+			function resetFonts(){
+				$("#myText").removeClass("courier");
+				$("#myText").removeClass("arial");
+				$("#myText").removeClass("verdana");
+			}
+
+			$("#b1").click(function () {
+				var t = $("#txt").val();
+
+				var c = $("#selcolor").val();
+				var f = $("#selfont").val();
+				var s = $("#txtsize").val();
+				
+				resetColors();
+				resetFonts();
+				$("#myText").text(t).addClass(c).addClass(f);
+				$("#myText").css("fontSize", s+"px");
+			});
+
+			$("#b2").click(function(){
+				resetColors();
+				resetFonts();
+				$("#myText").css("fontSize","10px");
+			});
 			
 		});
 	</script>
