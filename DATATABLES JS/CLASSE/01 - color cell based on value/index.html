@@ -511,27 +511,9 @@
 <script>
 	
 	$(document).ready(function() {
-	        $('#taula').DataTable({ 
-			    'rowCallback': function(row, data, index){
-
-			    if(data[3]> 20 && data[3]<30){
-			        $(row).find('td:eq(3)').css('background-color', 'red');
-			    }
-			    else if(data[3]>= 30 && data[3]<50){
-			        $(row).find('td:eq(3)').css('background-color', 'blue');
-			    }
-			    else if(data[3]>= 50 && data[3]<80){
-			        $(row).find('td:eq(3)').css('background-color', 'green');
-			    }
-			    else if(data[3]>= 80){
-			        $(row).find('td:eq(3)').css('background-color', 'magenta');
-			    }
-			    else {
-			        $(row).find('td:eq(3)').css('background-color', 'yellow');
-
-			    }
-			  }
-			});
+	    $(document).ready(function() {
+	        $('#taula').DataTable();
+	    } );
 	} );
 
 </script>
