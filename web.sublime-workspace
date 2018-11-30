@@ -479,6 +479,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "DATATABLES JS/CLASSE/02 - color cell dynamic/index.html",
+			"settings":
+			{
+				"buffer_size": 2719,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -556,29 +565,67 @@
 		"/D/GITHUB/WEB",
 		"/D/GITHUB/WEB/WEB",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE/01 - color cell based on value",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/18 - styling bootstrap 4",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control"
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/01 - basic init",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/02 - basic config",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/03 - new constructor",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/04 - ajax data",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/05 - default init",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/06 - disable child rows",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/07 - column control right",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/08 - whole row control",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/09 - custom child rows renderer",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/10 - show hidden details",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/11 - modal display",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/13 - bootstrap 4 modal 2",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/14 - bootstrap 4 styling",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/15 - column priority",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control",
+		"/D/GITHUB/WEB/WEB/LEAFLET",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES"
 	],
 	"file_history":
 	[
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/04 - ajax data/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE/02 - color cell dynamic/info.json",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/06 - fixed column/index.html",
+		"/C/Users/ToniMitjanit/Desktop/Quick Start - Leaflet.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/01 - basic init/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/18 - styling bootstrap 4/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/01 - basic init/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/03 - client side big source/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/01 - Basic Initialization/01 - zero configuration/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/04 - server side big source/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/05 - api scroller/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/01 - basic init/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/02 - basic config/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/03 - new constructor/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE/01 - color cell based on value/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/05 - default init/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/06 - disable child rows/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/07 - column control right/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/09 - custom child rows renderer/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/10 - show hidden details/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/11 - modal display/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/14 - bootstrap 4 styling/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/15 - column priority/index.html",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control/info.json",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/14 - bootstrap 4 styling/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/13 - bootstrap 4 modal 2/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/12 - bootstrap 4 modal/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/09 - custom child rows renderer/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/19 - styling icons/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/07 - column control right/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/08 - whole row control/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/04 - ajax data/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/04 - ajax data/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/01 - basic init/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/07 - select integration/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/03 - client side big source/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/07 - select integration/info.json",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/06 - fixed column/info.json",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/01 - basic initialization/index.html",
@@ -589,7 +636,6 @@
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/06 - collections/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/16 - api add & remove buttons/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/17 - api group selection/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/18 - styling bootstrap 4/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/07 - multilevel collections/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/08 - autoclose collection/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/09 - plugins/index.html",
@@ -674,23 +720,7 @@
 		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/02 - alert via javascript.html",
 		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/03 - alert close.html",
 		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/04 - alert event close 1.html",
-		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/04 - alert event close 2.html",
-		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/05 - basic button.html",
-		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/06 - toggle button.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/Traversing2.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/shoopingList.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/45 - Remove method.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/43 - After and Before methods.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/40 - Append method.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/41 - Prepend method.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/EXAMPLES/42 - Append method - Insert several new elements.html",
-		"/D/GITHUB/WEB/WEB/JSON/CLASSE/selects.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/21 - Nested Array.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/16 - Loop an Object.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/07 - XMLHttpRequest.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/08 - Content as Array.html",
-		"/D/GITHUB/WEB/WEB/JSON/EXAMPLES/05 - JSON Data Types.html",
-		"/D/GITHUB/WEB/WEB/AJAX/EXEMPLES/02 - loadContentOldIE.html"
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/04 - alert event close 2.html"
 	],
 	"find":
 	{
@@ -726,8 +756,201 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "DATATABLES JS/CLASSE/02 - color cell dynamic/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1878,
+								1878
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 45,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1968,
+										1969
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1840,
+										1841
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -798,7 +1021,7 @@
 		[
 			[
 				"",
-				"D:\\GITHUB\\Colorama\\Colorama\\colorama.sublime-project"
+				"D:\\GITHUB\\WEB\\WEB\\web.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -820,7 +1043,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 338.0,
+	"side_bar_width": 310.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
