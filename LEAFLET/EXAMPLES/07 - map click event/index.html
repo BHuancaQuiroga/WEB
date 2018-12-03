@@ -16,18 +16,34 @@
 
 	</head>
 	<body>
-		<h1>LEAFLET - Basic init. </h1>
+		<h1>LEAFLET - Map Click Event. </h1>
 		<div id="meuMapa" style="width:600px;height:400px;"></div>
 <script>
 
-	var m = L.map('meuMapa').setView([39.56637682250297, 3.2037112138683597], 12);
+	// Mapa centrat a latitud/longuitud i zoom
+	var m = L.map('meuMapa').setView([39.56796328692381,3.2125734049975563], 15);
 
+	// Imatges del mapa (OpenStreetMap + MapBox)
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	    maxZoom: 18,
 	    id: 'mapbox.streets',
 	    accessToken: 'pk.eyJ1IjoicHJvZmV3ZWIiLCJhIjoiY2pwM3JxeHR3MGF6cjNrcXcwbmh0MGZtOCJ9.mxvmjOpVymwltGGlcxHx8g'
 	}).addTo(m);
+
+
+	//Popup a mostrar en fer clic sobre el mapa
+	var popup = L.popup();
+
+	// Funció a executar en fer clic sobre el mapa
+	function onMapClick(e) {
+	    console.log("Has fet clicl en el mapa a " + e.latlng);
+	    popup.setLatLng(e.latlng)
+		    .setContent("Has fet click aquí!")
+		    .openOn(m);
+	}
+
+	m.on('click', onMapClick);
 
 </script>
 </body>

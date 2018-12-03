@@ -16,18 +16,38 @@
 
 	</head>
 	<body>
-		<h1>LEAFLET - Basic init. </h1>
+		<h1>LEAFLET - Markers with Icons. </h1>
 		<div id="meuMapa" style="width:600px;height:400px;"></div>
 <script>
 
-	var m = L.map('meuMapa').setView([39.56637682250297, 3.2037112138683597], 12);
+	// Mapa centrat a latitud/longuitud i zoom
+	var m = L.map('meuMapa').setView([39.562947854718,3.2198552657492883], 15);
 
+	// Imatges del mapa (OpenStreetMap + MapBox)
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	    maxZoom: 18,
 	    id: 'mapbox.streets',
 	    accessToken: 'pk.eyJ1IjoicHJvZmV3ZWIiLCJhIjoiY2pwM3JxeHR3MGF6cjNrcXcwbmh0MGZtOCJ9.mxvmjOpVymwltGGlcxHx8g'
 	}).addTo(m);
+
+
+	// Icona asociada al marcador
+
+	var icona = L.icon({
+
+	    iconUrl: 'img/icona.png', 		// url de la imatge de la icona
+	    shadowUrl: 'img/ombra.png',	// url de l'ombra de la icona
+
+	    iconSize:     [138, 95], // dimensons de la icona
+	    shadowSize:   [150, 64], // dimensions de l'ombra
+	    iconAnchor:   [22, 94], // centre de la posició de la icona i del marcador
+	    shadowAnchor: [4, 62],  // centre de la posició de l'ombra i del marcador
+	    popupAnchor:  [-3, -76] // posició relativa del popup respecte iconAnchor
+	});
+
+	// Marcador sobre el mapa
+	var marker = L.marker([39.559599619885326,3.2157697257636073], {icon: icona}).addTo(m);
 
 </script>
 </body>
