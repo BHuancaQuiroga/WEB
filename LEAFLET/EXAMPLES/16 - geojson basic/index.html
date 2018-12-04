@@ -18,25 +18,15 @@
 
 	</head>
 	<body>
-		<h1>LEAFLET - Fly To. </h1>
+		<h1>LEAFLET - GeoJSON Basic. </h1>
 		<div id="meuMapa" style="width:800px;height:600px;"></div>
-		<button id="b1">CENTRAR A PALMA</button>
-		<button id="b2">CENTRAR A MANACOR</button>
-		<button id="b3">CENTRAR A INCA</button>
-		<button id="b4">RUTA 1</button>
+		<button id="b1">CANVIA ESTIL</button>
 <script>
 
-	// Grup de capa
-	var ciutats 	= L.layerGroup();
+	// Coordenades
 	var coordManacor = [39.569167469384524,3.2097057711208663];
 	var coordPalma 	 = [39.5685396953947,2.6412525233238284];
 	var coordInca 	 = [39.711517283890196,2.9087695125847404];
-
-
-	// Marcadors agrupats en la capa
-	var manacor = L.marker(coordManacor).bindPopup('Manacor').addTo(ciutats);
-	var palma 	= L.marker(coordPalma).bindPopup('Palma').addTo(ciutats);
-	var inca 	= L.marker(coordInca).bindPopup('Inca').addTo(ciutats);
 
 
 	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
@@ -51,38 +41,72 @@
 	var m = L.map('meuMapa', {
 			center: [39.56938657282553,2.9340382684379165],
 			zoom: 10,
-			layers: [gris, ciutats]
+			layers: [gris]
 		});
+
+	// Marcador sobre el mapa
+	var marker = L.marker(coordManacor).addTo(m);
+
+
+	// GEOJSON ---------------------
+	var geojsonInfo = {
+	  "type": "FeatureCollection",
+	  "features": [
+	    {
+	      "type": "Feature",
+	      "properties": {},
+	      "geometry": {
+	        "type": "Polygon",
+	        "coordinates": [
+	          [
+	            [coordManacor[1], coordManacor[0]],
+	            [coordPalma[1], coordPalma[0]],
+	            [coordInca[1], coordInca[0]],
+	            [coordManacor[1], coordManacor[0]]
+	          ]
+	        ]
+	      }
+	    }
+	  ]
+	};
+
+	// Estils a aplicar al poligon GeoJson
+	var estilsArea = [
+			{
+			    "color": "#ff7800",
+			    "weight": 5,
+			    "opacity": 0.65
+			},
+			{
+				"color": "#78ff00",
+				"weight": 1,
+				"opacity": 0.25
+			},
+			{
+				"color": "#0078ff",
+				"weight": 3,
+				"opacity": 0.85
+			},
+			{
+				"color": "#ff78ff",
+				"weight": 0,
+				"opacity": 0.99
+			}
+		];
+
+	// Afegir GeoJSON i Estils al mapa
+	var g = L.geoJson(geojsonInfo, estilsArea[0]).addTo(m);
+
+	var n = 0;
 
 	// Events
 	$("#b1").click(function(){
-		m.flyTo(coordPalma, 11);
+		n++;
+		n = n%estilsArea.length;
+		console.log("Aplicant estil "+n);
+		g.setStyle(estilsArea[n]);
 	});
 
-	$("#b2").click(function(){
-		m.flyTo(coordManacor, 13);
-	});
-
-	$("#b3").click(function(){
-		m.flyTo(coordInca, 15);
-	});
-
-	$("#b4").click(function(){
-		if(!m.hasLayer(ruta1)){
-			m.addLayer(ruta1);
-		}
-		else {
-			m.removeLayer(ruta1);
-		}
-	});
-
-	// LOAD JSON FILE -------------------------------------
-	$.getJSON("rutaManacorPalma.geojson").done( function( data ){
-	    ruta1 = new L.geoJson(data, {
-	        opacity: 0.6,
-	        weight:  3.5
-	    }).getLayers()[0];
-	});
 
 </script>
 </body>
