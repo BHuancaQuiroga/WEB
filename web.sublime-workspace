@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "LEAFLET/EXAMPLES/18 - geojson 2 layers/index.html",
+			"file": "DATATABLES JS/CLASSE/03 - custom export buttons/index.html",
 			"settings":
 			{
-				"buffer_size": 2060,
+				"buffer_size": 20922,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -604,17 +604,30 @@
 	[
 		"/D/GITHUB/WEB",
 		"/D/GITHUB/WEB/WEB",
-		"/D/GITHUB/WEB/WEB/LEAFLET",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/16 - geojson basic",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/17 - geojson adv"
+		"/D/GITHUB/WEB/WEB/DATATABLES JS",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/01 - Basic Initialization",
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/01 - Basic Initialization/01 - zero configuration"
 	],
 	"file_history":
 	[
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/17 - geojson adv/barris.geojson.txt",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/11 - tile layers/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/12 - control scale/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/13 - zoom in out/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/14 - pan to/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/15 - flyTo/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/16 - geojson basic/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/17 - geojson adv/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/18 - geojson 2 layers/barris.geojson",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/18 - geojson 2 layers/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/19 - geojson color area/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/22 - fullscreen map/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/20 - geojson cluster marker/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/21 - geojson heatmap/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/23 - glyph icon marker/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/17 - geojson adv/rates.geojson",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/17 - geojson adv/barris.geojson.txt",
 		"/C/wamp/www/LEAFLET/EXAMPLES/17 - geojson adv/rates.geojson",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/01 - basic init/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/10 - layer groups/index.html",
@@ -690,11 +703,7 @@
 		"/C/Users/ToniMitjanit/Desktop/DATAS/extract2014.html",
 		"/C/Users/ToniMitjanit/Desktop/DATAS/Buques en puerto _ Ports de Balears2014.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/16 - geojson/index.html",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/14 - pan to/index.html",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/15 - flyTo/index.html",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/13 - zoom in out/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/15 - flyTo/rutaManacorPalma.geojson",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/11 - tile layers/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/09 - icon class/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/08 - marker icons/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/07 - map click event/index.html",
@@ -730,15 +739,7 @@
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control/info.json",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/13 - bootstrap 4 modal 2/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/12 - bootstrap 4 modal/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/19 - styling icons/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/08 - whole row control/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/04 - ajax data/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/07 - select integration/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/07 - select integration/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Scroller/06 - fixed column/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/01 - basic initialization/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/02 - file export/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/03 - custom button/index.html"
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Buttons/19 - styling icons/index.html"
 	],
 	"find":
 	{
@@ -789,19 +790,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "LEAFLET/EXAMPLES/18 - geojson 2 layers/index.html",
+					"file": "DATATABLES JS/CLASSE/03 - custom export buttons/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2060,
+						"buffer_size": 20922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								425,
-								425
+								17382,
+								17382
 							]
 						],
 						"settings":
@@ -845,82 +846,67 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										223,
-										227
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										223,
-										227
-									]
 								},
 								"unmatched":
 								{
@@ -933,62 +919,62 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 16432.8,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
