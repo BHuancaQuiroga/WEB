@@ -520,19 +520,24 @@
 	"buffers":
 	[
 		{
-			"file": "D3js/EXAMPLES/06 - create svg elements/index.html",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <title>AnimeJS Example</title>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <script src=\"../anime.min.js\"></script>\n</head>\n<body>\n\n\t<!-- CSS SELECTOR -->\n\t<div id=\"cssSelector\">\n\t  <div class=\"line\">\n\t  \t<h2>CSS selector </h2>\n\t    <div class=\"square el\">\n\t    \t<svg width=\"100\" height=\"100\">\n\t    \t\t<rect width=\"100\" height=\"100\" fill=\"red\" />\n\t    \t</svg>\n\t    </div>\n\t  </div>\n\t</div>\n\t<script>\n\t\tvar cssSelector = anime({\n\t\t  targets: '#cssSelector .el',\n\t\t  translateX: 250\n\t\t});\n\t</script>\n\n\t<!-- DOM SELECTOR -->\n\t<div id=\"domNode\">\n\t\t<h2>DOM selector </h2>\n\t  <div class=\"large square el\">\n\t  \t<svg width=\"100\" height=\"100\">\n\t  \t\t<rect width=\"100\" height=\"100\" fill=\"red\" />\n\t  \t</svg>\n\t  </div>\n\t</div>\n\t<script>\n\t\tvar el = document.querySelector('#domNode .el');\n\t\tvar domNode = anime({\n\t\t  targets: el,\n\t\t  translateX: 250\n\t\t});\n\t</script>\n\n\t<!-- NODE LIST SELECTOR -->\n\t<div id=\"nodeList\">\n\t  <h2>NODE List selector </h2>\n\t  <div class=\"line\">\n\t    <div class=\"small square el\">\n\t    \t<svg width=\"100\" height=\"100\">\n\t    \t\t<rect width=\"100\" height=\"100\" fill=\"red\" />\n\t    \t</svg>\n\t    </div>\n\t  </div>\n\t  <div class=\"line\">\n\t    <div class=\"small square el\">\n\t    \t<svg width=\"100\" height=\"100\">\n\t    \t\t<rect width=\"100\" height=\"100\" fill=\"green\" />\n\t    \t</svg>\n\t    </div>\n\t  </div>\n\t  <div class=\"line\">\n\t    <div class=\"small square el\">\n\t    \t<svg width=\"100\" height=\"100\">\n\t    \t\t<rect width=\"100\" height=\"100\" fill=\"blue\" />\n\t    \t</svg>\n\t    </div>\n\t  </div>\n\t</div>\n\t<script>\n\t\tvar els = document.querySelectorAll('#nodeList .el');\n\n\t\tvar nodeList = anime({\n\t\t  targets: els,\n\t\t  translateX: 250\n\t\t});\n\t</script>\n\n\t<!-- JAVASCRIPT OBJECT SELECTOR -->\n\t<div id=\"JSobject\">\n\t  <h2>JS OBJECT selector </h2>\n\t  <pre>{\"charged\":\"5%\"}</pre>\n\t</div>\n\t<script>\n\t\tvar obj = { charged: '0%' , ready:'100%' };\n\n\t\tvar JSobject = anime({\n\t\t  targets: obj,\n\t\t  charged: '100%',\n\t\t  round: 5,\n\t\t  easing: 'linear',\n\t\t  update: function() {\n\t\t    var el = document.querySelector('#JSobject pre');\n\t\t    el.innerHTML = JSON.stringify(obj);\n\t\t  }\n\t\t});\n\t</script>\n</body>\n</html>",
+			"file": "ANIME JS/01 - basics/index.html",
+			"file_size": 2263,
+			"file_write_time": 131897837792847133,
 			"settings":
 			{
-				"buffer_size": 926,
+				"buffer_size": 2179,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
 			}
 		},
 		{
-			"file": "D3js/EXAMPLES/05 - axes/index.html",
+			"file": "BOOTSTRAP JS/EXAMPLES/01 - alert via data.html",
 			"settings":
 			{
-				"buffer_size": 1077,
+				"buffer_size": 1047,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -612,25 +617,23 @@
 	[
 		"/D/GITHUB/WEB",
 		"/D/GITHUB/WEB/WEB",
-		"/D/GITHUB/WEB/WEB/D3js",
-		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES",
-		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/05 - axes",
-		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/06 - create svg elements",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/01 - Basic Initialization",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/01 - Basic Initialization/01 - zero configuration"
+		"/D/GITHUB/WEB/WEB/ANIME JS",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS",
+		"/D/GITHUB/WEB/WEB/BOOTSTRAP JS/EXAMPLES"
 	],
 	"file_history":
 	[
+		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg01.html",
+		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/05 - axes/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/16 - geojson basic/index.html",
+		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/06 - create svg elements/index.html",
+		"/D/GITHUB/WEB/WEB/LEAFLET/CLASSE/01 - php2geojson/index.php",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/CLASSE/03 - custom export buttons/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/11 - tile layers/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/12 - control scale/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/13 - zoom in out/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/14 - pan to/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/15 - flyTo/index.html",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/16 - geojson basic/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/17 - geojson adv/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/18 - geojson 2 layers/barris.geojson",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/18 - geojson 2 layers/index.html",
@@ -691,7 +694,6 @@
 		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg04.html",
 		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg03.html",
 		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg02.html",
-		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg01.html",
 		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong/index.html",
 		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong Empty/index.html",
 		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong Empty/pingpong.js",
@@ -748,10 +750,7 @@
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/15 - column priority/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control/index.html",
 		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/16 - class control/info.json",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/13 - bootstrap 4 modal 2/index.html",
-		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/12 - bootstrap 4 modal/index.html"
+		"/D/GITHUB/WEB/WEB/DATATABLES JS/EXAMPLES/EXTENSIONS/Responsive/17 - assigned class control/info.json"
 	],
 	"find":
 	{
@@ -802,108 +801,51 @@
 			[
 				{
 					"buffer": 0,
-					"file": "D3js/EXAMPLES/06 - create svg elements/index.html",
+					"file": "ANIME JS/01 - basics/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 926,
+						"buffer_size": 2179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								638,
-								638
+								1912,
+								1912
 							]
 						],
 						"settings":
 						{
+							"auto_name": "<!DOCTYPE html>",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										1912,
+										1913
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										1907,
+										1908
+									]
 								},
 								"unmatched":
 								{
@@ -911,11 +853,16 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -926,53 +873,46 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_curly_content"
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 2416.8,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -980,121 +920,33 @@
 				},
 				{
 					"buffer": 1,
-					"file": "D3js/EXAMPLES/05 - axes/index.html",
+					"file": "BOOTSTRAP JS/EXAMPLES/01 - alert via data.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1077,
+						"buffer_size": 1047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								263
+								573,
+								0
 							]
 						],
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
 									"1":
 									[
-										309,
-										315
+										1033,
+										1037
 									]
 								},
 								"icon":
@@ -1109,8 +961,8 @@
 								{
 									"1":
 									[
-										264,
-										270
+										568,
+										572
 									]
 								},
 								"unmatched":
@@ -1119,11 +971,16 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1134,52 +991,48 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_curly_content"
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 192.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
