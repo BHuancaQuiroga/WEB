@@ -593,10 +593,18 @@
 	},
 	"expanded_folders":
 	[
-		"/D/GITHUB/WEB"
+		"/D/GITHUB/WEB",
+		"/D/GITHUB/WEB/WEB",
+		"/D/GITHUB/WEB/WEB/REACT",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES"
 	],
 	"file_history":
 	[
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react03 - jsx 2/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react03 - jsx 2/src/index.css",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react01 - hello world/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react02 - jsx basic/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react01 - hello world/README.md",
 		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/02 - data binding/dataJoin.html",
 		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/06 - create svg elements/transformationSVGD3.html",
 		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/01 - basic selection/index.html",
@@ -719,12 +727,7 @@
 		"/D/GITHUB/WEB/WEB/D3js/05 - axes/index.html",
 		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/02 - markers/index.html",
 		"/C/Users/ToniMitjanit/Desktop/DATAS/extract2017",
-		"/C/Users/ToniMitjanit/Downloads/IBESTAT_I209015_00C1_2018_12_03.json",
-		"/C/Users/ToniMitjanit/Desktop/DATAS/extract2016.html",
-		"/C/Users/ToniMitjanit/Desktop/DATAS/extract2015.html",
-		"/C/Users/ToniMitjanit/Desktop/DATAS/extract2014.html",
-		"/C/Users/ToniMitjanit/Desktop/DATAS/Buques en puerto _ Ports de Balears2014.html",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/16 - geojson/index.html"
+		"/C/Users/ToniMitjanit/Downloads/IBESTAT_I209015_00C1_2018_12_03.json"
 	],
 	"find":
 	{
@@ -864,7 +867,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 279.0,
+	"side_bar_width": 327.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
