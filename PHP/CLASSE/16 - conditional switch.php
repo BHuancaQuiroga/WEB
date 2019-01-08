@@ -12,7 +12,7 @@
 	<h1>Conditional SWITCH (PHP).</h1>
 	<?php
 
-		$favcolor="blue";
+		$favcolor="red";
 		switch ($favcolor) { 
 			case "red":  
 				echo "Your favorite color is red!";  
