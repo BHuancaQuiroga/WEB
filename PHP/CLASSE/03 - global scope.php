@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Local Scope</title>
+	<title>Global Scope</title>
 	<style>
 		* {
 			margin-left:20px;

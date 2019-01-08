@@ -9,17 +9,11 @@
 	</style>
 </head>
 <body>
-	<h1>Global Scope (PHP).</h1>
+	<h1>String(PHP).</h1>
 	<?php
 
-		$x = 5;
-		$y = 10;
-
-		function myTest(){
-			echo $GLOBALS['x']+$GLOBALS['y'];
-		}
-
-		myTest();
+		$txt = "Hello String!";
+		echo $txt;
 	?>
 </body>
 </html>

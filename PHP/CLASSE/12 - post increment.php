@@ -9,17 +9,13 @@
 	</style>
 </head>
 <body>
-	<h1>Global Scope (PHP).</h1>
+	<h1>Post increment (PHP).</h1>
 	<?php
 
-		$x = 5;
-		$y = 10;
-
-		function myTest(){
-			echo $GLOBALS['x']+$GLOBALS['y'];
-		}
-
-		myTest();
+		$x = 4;
+		$y = ++$x;
+		echo "X:".$x."<br>";
+		echo "Y:".$y."<br>";
 	?>
 </body>
 </html>

@@ -9,17 +9,12 @@
 	</style>
 </head>
 <body>
-	<h1>Global Scope (PHP).</h1>
+	<h1>Concat Strings (PHP).</h1>
 	<?php
 
-		$x = 5;
-		$y = 10;
-
-		function myTest(){
-			echo $GLOBALS['x']+$GLOBALS['y'];
-		}
-
-		myTest();
+		$txt1 = "Hello";
+		$txt2 = "Bye";
+		echo $txt1 . " " . $txt2;
 	?>
 </body>
 </html>
