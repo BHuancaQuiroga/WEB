@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"setS",
+				"setStudies"
+			],
+			[
+				"get",
+				"getRandomNumber"
+			],
+			[
 				"goo",
 				"googleMap"
 			],
@@ -234,10 +242,6 @@
 			[
 				"ba",
 				"background-color\tproperty"
-			],
-			[
-				"get",
-				"getElementsByTagName"
 			],
 			[
 				"pro",
@@ -510,15 +514,29 @@
 			[
 				"obs",
 				"obs"
-			],
-			[
-				"po",
-				"population"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "D3js/EXAMPLES/08 - charts/piechart.html",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ToniMitjanit/Desktop/DWC/NODE/main.js",
+			"settings":
+			{
+				"buffer_size": 67,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "/* Hello, World! program in node.js */"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -595,11 +613,36 @@
 	[
 		"/D/GITHUB/WEB",
 		"/D/GITHUB/WEB/WEB",
+		"/D/GITHUB/WEB/WEB/D3js",
+		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES",
+		"/D/GITHUB/WEB/WEB/D3js/EXAMPLES/08 - charts",
 		"/D/GITHUB/WEB/WEB/REACT",
 		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES"
 	],
 	"file_history":
 	[
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react18 - form select multiple/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react17 - form select/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react19 - form radio/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react16 - form textarea/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react15 - form validation/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react14 - form states/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react13 - keys/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react12 - ajax/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react12 - ajax/src/info.json",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react12 - ajax/public/info.json",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react11 - comp lifecycle/src/Clock.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react11 - comp lifecycle/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react10 - comp events/src/FormNumbers.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react10 - comp events/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react09 - props/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react09 - props/src/ListResults.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react08 - state 4/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react07 -state 3/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react06 -state 2/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react05 -state 1/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react04 - events/src/App.js",
+		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react04 - events/src/index.css",
 		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react03 - jsx 2/src/App.js",
 		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react03 - jsx 2/src/index.css",
 		"/D/GITHUB/WEB/WEB/REACT/EXAMPLES/react01 - hello world/src/App.js",
@@ -705,29 +748,7 @@
 		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg10.html",
 		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg11.html",
 		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg12.html",
-		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg05.html",
-		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg04.html",
-		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg03.html",
-		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg02.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong/index.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong Empty/index.html",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong Empty/pingpong.js",
-		"/C/Users/ToniMitjanit/Desktop/geo3d.html",
-		"/C/Users/ToniMitjanit/Desktop/municipalities.json",
-		"/C/Users/ToniMitjanit/Desktop/municipisBalears.json",
-		"/C/Users/ToniMitjanit/Desktop/municipisBalearsNoms.json",
-		"/C/Users/ToniMitjanit/Desktop/mapMunicipisBalearsNom.json",
-		"/C/Users/ToniMitjanit/Downloads/map (4).geojson",
-		"/C/Users/ToniMitjanit/Desktop/mapaMunicipisBalears.json",
-		"/C/Users/ToniMitjanit/Downloads/map (6).geojson",
-		"/C/Users/ToniMitjanit/Desktop/mapMunicipisBalearsNom01.json",
-		"/C/Users/ToniMitjanit/Desktop/DATAS/municipisMapa.json",
-		"/C/Users/ToniMitjanit/Desktop/eu-countries.js",
-		"/D/GITHUB/WEB/WEB/JQUERY/CLASSE/PingPong/pingpong.js",
-		"/D/GITHUB/WEB/WEB/D3js/05 - axes/index.html",
-		"/D/GITHUB/WEB/WEB/LEAFLET/EXAMPLES/02 - markers/index.html",
-		"/C/Users/ToniMitjanit/Desktop/DATAS/extract2017",
-		"/C/Users/ToniMitjanit/Downloads/IBESTAT_I209015_00C1_2018_12_03.json"
+		"/D/GITHUB/WEB/WEB/SVG/EXAMPLES/svg05.html"
 	],
 	"find":
 	{
@@ -773,8 +794,248 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "D3js/EXAMPLES/08 - charts/piechart.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2304.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/ToniMitjanit/Desktop/DWC/NODE/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* Hello, World! program in node.js */",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										66,
+										67
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										50,
+										51
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -867,7 +1128,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 327.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
