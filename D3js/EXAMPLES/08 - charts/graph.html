@@ -37,7 +37,7 @@
                "translate(" + margin.left + "," + margin.top + ")");
 
          // Get the data
-         d3.csv("data.csv", function(error, data) {
+         d3.csv("evolution.csv", function(error, data) {
             if (error) throw error;
             // format the data
             data.forEach(function(d) {
@@ -56,9 +56,10 @@
                .attr("d", valueline);
 
             // Add the X Axis
+            var formatxAxis = d3.format('.0f');
             svg.append("g")
                .attr("transform", "translate(0," + height + ")")
-               .call(d3.axisBottom(x));
+               .call(d3.axisBottom(x).tickFormat(formatxAxis));
 
             // Add the Y Axis
             svg.append("g")
